@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `50px auto auto auto`,
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
         }}
@@ -41,9 +41,7 @@ const Layout = ({ children }) => {
             textAlign:  `center`,
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="/">nuhab</a>
+          © {new Date().getFullYear()} &middot; <a href="/">nuhab</a>
         </footer>
       </div>
     </>
