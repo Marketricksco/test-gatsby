@@ -24,7 +24,7 @@ function Seo({ description, title, children }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = 'Digital, easy.'
   const defaultTitle = site.siteMetadata?.title
 
   return (
