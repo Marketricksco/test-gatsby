@@ -18,6 +18,7 @@ const IndexPage = () => (
       <h1>
         Digital <b>easy!</b>
       </h1>
+      <a href="mailto:juan@hunab.co">contact</a>
     </div>
   </Layout>
 )
