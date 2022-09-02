@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
             textAlign:  `center`,
           }}
         >
-          © {new Date().getFullYear()} &middot; <a href="/">nuhab</a>
+          © {new Date().getFullYear()} &middot; <a href="/">hunab</a>
         </footer>
       </div>
     </>
