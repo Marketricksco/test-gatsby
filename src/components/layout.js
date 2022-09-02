@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
           style={{
             marginTop: `var(--space-5)`,
             fontSize: `var(--font-sm)`,
-            textAlign: center,
+            textAlign:  `center`,
           }}
         >
           © {new Date().getFullYear()} &middot; Built with
